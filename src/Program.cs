@@ -16,6 +16,12 @@ if (args is ["ParseJson"])
     return;
 }
 
+if (args is ["App"])
+{
+    await App.RunAsync();
+    return;
+}
+
 if (args.Length == 0)
 {
     Console.Error.WriteLine(

@@ -30,3 +30,11 @@ dotnet run --project src -- PromptTemplate
 ```powershell
 dotnet run --project src -- ParseJson
 ```
+
+## Serve it with a small HTTP server
+
+```powershell
+dotnet run --project src -- App
+```
+
+Open http://127.0.0.1:5000
