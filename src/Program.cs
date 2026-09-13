@@ -22,6 +22,12 @@ if (args is ["App"])
     return;
 }
 
+if (args is ["CompareModels"])
+{
+    await CompareModels.RunAsync();
+    return;
+}
+
 if (args.Length == 0)
 {
     Console.Error.WriteLine(
