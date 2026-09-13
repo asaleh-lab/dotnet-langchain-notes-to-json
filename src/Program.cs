@@ -10,6 +10,12 @@ if (args is ["PromptTemplate"])
     return;
 }
 
+if (args is ["ParseJson"])
+{
+    await ParseJson.RunAsync();
+    return;
+}
+
 if (args.Length == 0)
 {
     Console.Error.WriteLine(

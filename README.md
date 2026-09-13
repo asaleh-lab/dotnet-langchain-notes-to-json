@@ -24,3 +24,9 @@ dotnet run --project src -- ChatOnce
 ```powershell
 dotnet run --project src -- PromptTemplate
 ```
+
+## Now the parser comes in
+
+```powershell
+dotnet run --project src -- ParseJson
+```
