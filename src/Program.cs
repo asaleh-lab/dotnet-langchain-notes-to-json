@@ -4,6 +4,12 @@ if (args is ["ChatOnce"])
     return;
 }
 
+if (args is ["PromptTemplate"])
+{
+    await PromptTemplate.RunAsync();
+    return;
+}
+
 if (args.Length == 0)
 {
     Console.Error.WriteLine(

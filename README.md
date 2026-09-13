@@ -18,3 +18,9 @@ Put your OpenAI API key in `.env`.
 ```powershell
 dotnet run --project src -- ChatOnce
 ```
+
+## Let's fill the prompt template with the notes
+
+```powershell
+dotnet run --project src -- PromptTemplate
+```
