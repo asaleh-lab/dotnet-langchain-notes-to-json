@@ -1,3 +1,9 @@
+if (args is ["ChatOnce"])
+{
+    await ChatOnce.RunAsync();
+    return;
+}
+
 if (args.Length == 0)
 {
     Console.Error.WriteLine(

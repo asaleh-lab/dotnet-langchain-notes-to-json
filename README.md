@@ -12,3 +12,9 @@ copy .env.example .env
 ```
 
 Put your OpenAI API key in `.env`.
+
+## Test with one chat call
+
+```powershell
+dotnet run --project src -- ChatOnce
+```
